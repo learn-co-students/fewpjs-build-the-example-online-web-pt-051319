@@ -15,12 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
         heart = document.querySelector(".like-glyph")
         heart.innerHTML = FULL_HEART
         heart.classList.add("activated-heart")
-  })
-  .catch( error => {
+       })
+     .catch( error => {
     errorMess.className = "";
+      })
   })
-
-})
 
 })
 
