@@ -41,7 +41,6 @@ function displayError(message) {
   setTimeout(function () {
     toggleModal()
   }, 5000)
-
 }
 
 //------------------------------------------------------------------------------
